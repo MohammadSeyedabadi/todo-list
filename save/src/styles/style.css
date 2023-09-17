@@ -499,10 +499,22 @@ img {
 }
 
 /* About page */
-.picture {
+.aside--card{
+  border-radius: var(--border-radius);
+  background: var(--card-background-color);
+  border: 1px solid var(--border-color);
+}
+
+
+.theme-dark .aside--card{
+  border-radius: var(--border-radius);
+  background: var(--gray-9);
+  border: 1px solid var(--gray-7);
+}
+/* .picture {
   width: 128px;
   border-radius: var(--border-radius);
-}
+} */
 
 .article--p-a {
   color: var(--link);

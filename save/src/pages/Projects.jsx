@@ -101,7 +101,7 @@ export default function Card() {
 
   return (
     <main className="mt-5">
-      <h1 className="heading pb-md-5">projects</h1>
+      <h1 className="heading py-md-5">projects</h1>
       <Row xs={1} md={2} lg={3} className="gy-2 gy-md-3 gx-2 gx-md-3">
         {repo}
       </Row>

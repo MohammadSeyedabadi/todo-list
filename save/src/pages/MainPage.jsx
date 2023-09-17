@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom'
 
 import Heading from '../components/Heading'
-import { MainPageProjects } from "../data/MainPageProjects"
+import { MainPageProjects } from '../data/MainPageProjects'
 
 export default function MainPage() {
   return (
@@ -14,12 +14,11 @@ export default function MainPage() {
           <Col sm={7}>
             <h1 className="heading pt-md-5">Hey, I'm Mohammad!</h1>
             <p className="hero-description fs-5 fw-semibold">
-              Welcome to my digital garden. 🌱
+              Welcome to my digital garden.
               <br />
               <br />
-              I'm a software developer in Chicago. I make open-source projects
-              and write about code, design, and life. I like accordions,
-              drawing, sci-fi, reading, and gaming.
+              I'm a software developer in Neyshabur. I make open-source projects
+              and write about code.
             </p>
           </Col>
         </Row>
