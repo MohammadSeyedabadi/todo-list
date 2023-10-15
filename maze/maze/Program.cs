@@ -16,6 +16,7 @@ namespace maze
                             {0,1,0,1 },
                             {0,1,1,1 } };
 
+
             int[,] visited1 =   {{0,0,0,0 },
                                 {0,0,0,0 },
                                 {0,0,0,0 },
@@ -24,6 +25,7 @@ namespace maze
             RatInAMaze ratInAMaze = new RatInAMaze();
             ratInAMaze.FindPathInMaze(maze, visited1, 0, 0, 3, 3, 1);
 
+            Console.WriteLine("press any key to close the console");
             Console.ReadKey();
         }
     }

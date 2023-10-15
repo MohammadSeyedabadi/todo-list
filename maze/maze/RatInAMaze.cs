@@ -26,10 +26,10 @@ namespace maze
                     }
                     Console.WriteLine();
                 }
-                Console.WriteLine("================");
+                Console.WriteLine("press any key to continue");
 
                 Console.ReadKey();
-                Environment.Exit(0);
+             /*   Environment.Exit(0);*/
             }
             else
             {
@@ -43,8 +43,8 @@ namespace maze
                         visited[rowNew, colNew] = move;
                         drawBoard(rowNew,colNew);
                         FindPathInMaze(maze, visited, rowNew, colNew, desRow, desCol, move);
-                      /*  move--;
-                        visited[rowNew, colNew] = 0; */
+                        move--;
+                        visited[rowNew, colNew] = 0;
                     }
                 }
             }
@@ -62,6 +62,8 @@ namespace maze
 
         private void drawBoard(int rowNew, int colNew)
         {
+            Console.Clear();
+
             int[,] board =  {{1,1,0,1 },
                             {0,1,1,1 },
                             {0,1,0,1 },
@@ -84,14 +86,14 @@ namespace maze
                 Console.WriteLine();
             }
 
-            Thread.Sleep(900);
+            Thread.Sleep(4000);
             Console.Clear();
         }
 
         private void initialMove()
         {
             Console.Write("5 1 0 1\n0 1 1 1\n0 1 0 1\n0 1 1 1");
-            Thread.Sleep(900);   
+            Thread.Sleep(4000);   
             Console.Clear();
         }
     }
