@@ -1,6 +1,0 @@
-D:\data structure\theknights tour\theknights tour\bin\Debug\theknights tour.exe.config
-D:\data structure\theknights tour\theknights tour\bin\Debug\theknights tour.exe
-D:\data structure\theknights tour\theknights tour\bin\Debug\theknights tour.pdb
-D:\data structure\theknights tour\theknights tour\obj\Debug\theknights tour.csprojResolveAssemblyReference.cache
-D:\data structure\theknights tour\theknights tour\obj\Debug\theknights tour.exe
-D:\data structure\theknights tour\theknights tour\obj\Debug\theknights tour.pdb
