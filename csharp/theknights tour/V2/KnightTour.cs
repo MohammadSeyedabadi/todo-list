@@ -21,7 +21,7 @@ namespace theknights_tour
                 {
                     for (int j = 0; j < 8; j++)
                     {
-                        Console.Write(visited[i, j] + "  ");
+                        Console.Write(visited[i, j].ToString("00") + "  ");
                     }
                     Console.WriteLine();
                     Console.WriteLine();
@@ -79,13 +79,13 @@ namespace theknights_tour
                 canRunInitialMove = false;
             }
 
-            board[rowNew, colNew] = 5;
+            board[rowNew, colNew] = 22;
 
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 8; j++)
                 {
-                    Console.Write(board[i, j] + "  ");
+                    Console.Write(board[i, j].ToString("00") + "  ");
                 }
                 Console.WriteLine();
                 Console.WriteLine();
@@ -97,7 +97,7 @@ namespace theknights_tour
 
         private void initialMove()
         {
-            Console.Write("5  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0\n\n0  0  0  0  0  0  0  0");
+            Console.Write("22  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00\n\n00  00  00  00  00  00  00  00");
             Thread.Sleep(1000);
             Console.Clear();
         }
