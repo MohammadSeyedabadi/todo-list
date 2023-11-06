@@ -1,0 +1,6 @@
+D:\دانشگاه\سال دوم\ترم اول\ساختمان داده\projects\warnsdorffsAlgorithmKnightsTourProblem\warnsdorffsAlgorithmKnightsTourProblem\bin\Debug\warnsdorffsAlgorithmKnightsTourProblem.exe.config
+D:\دانشگاه\سال دوم\ترم اول\ساختمان داده\projects\warnsdorffsAlgorithmKnightsTourProblem\warnsdorffsAlgorithmKnightsTourProblem\obj\Debug\warnsdorffsAlgorithmKnightsTourProblem.csprojResolveAssemblyReference.cache
+D:\دانشگاه\سال دوم\ترم اول\ساختمان داده\projects\warnsdorffsAlgorithmKnightsTourProblem\warnsdorffsAlgorithmKnightsTourProblem\bin\Debug\warnsdorffsAlgorithmKnightsTourProblem.exe
+D:\دانشگاه\سال دوم\ترم اول\ساختمان داده\projects\warnsdorffsAlgorithmKnightsTourProblem\warnsdorffsAlgorithmKnightsTourProblem\bin\Debug\warnsdorffsAlgorithmKnightsTourProblem.pdb
+D:\دانشگاه\سال دوم\ترم اول\ساختمان داده\projects\warnsdorffsAlgorithmKnightsTourProblem\warnsdorffsAlgorithmKnightsTourProblem\obj\Debug\warnsdorffsAlgorithmKnightsTourProblem.exe
+D:\دانشگاه\سال دوم\ترم اول\ساختمان داده\projects\warnsdorffsAlgorithmKnightsTourProblem\warnsdorffsAlgorithmKnightsTourProblem\obj\Debug\warnsdorffsAlgorithmKnightsTourProblem.pdb
